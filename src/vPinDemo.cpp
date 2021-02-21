@@ -4,9 +4,9 @@
 
  void vPinDemo(SSD1306Wire* display)
  {
-   display->drawString(0, 13, String(vPin() * 3200 / 4095));
+   display->drawString(0, 0, String(vPin() * 3200 / 4095));
    display->display();
-   delay(1000);
-   display->clear();
-   display->display();
+  // delay(1000);
+  // display->clear();
+  // display->display();
  }

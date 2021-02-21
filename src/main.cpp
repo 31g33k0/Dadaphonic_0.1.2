@@ -19,7 +19,7 @@ SSD1306Wire display(0x3c, 21, 22);
 
 void setup()
 {
-  //delay(100);
+  delay(10);
 
   Serial.begin(115200);
   modemSerial.begin(9600);
@@ -27,8 +27,7 @@ void setup()
   display.init();
   display.flipScreenVertically();
   display.clear();
-  //delay(100);
-  display.display(); //.display();
+  display.display();
 }
 
 void loop()
@@ -41,11 +40,11 @@ void loop()
     // // display.drawXbm(64,  0,  8,  8,  wifi_ico_bits);
    Serial.printf("voltage Pin %s %s\n", String(PANEL_PIN), String(vPin() * 3200 / 4095));
     vPinDemo(&display);
-    delay(200);
+    delay(10);
   }
 
 
   wifidraw(&display);
   display.display();
-  delay(200);
+  delay(50);
 }
