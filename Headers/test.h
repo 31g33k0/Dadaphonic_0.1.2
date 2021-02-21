@@ -1,4 +1,4 @@
-
+//#include "/home/chronominet/Documents/PlatformIO/Projects/Dadaphonic_0.1.2/Headers/joystick.h"
 
 #include <Arduino.h>
 #include <SoftwareSerial.h>
@@ -31,18 +31,12 @@
 // #include <Arduino.h>
 // #include <SoftwareSerial.h>
 
-// #ifndef PANEL_PIN
-// #define PANEL_PIN
-// int panelPin = (int);    // put the first buttons here
-// #endif
-
-// #ifndef UTILS
-// #define UTILS
-
 #ifndef TEST_H
 #define TEST_H
 bool button(void);
 int vPin(void);
+int xPin(void);
+int yPin(void);
 //void wifidraw(SSD1306Wire display);
 
 #endif
