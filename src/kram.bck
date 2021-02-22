@@ -5,5 +5,4 @@
   display.drawString(0,13,String(a(4)));
  display.setPixel(63,2);
   display.drawXbm(10,10,60,36,WiFi_Logo_bits);
-  display.display();
 */

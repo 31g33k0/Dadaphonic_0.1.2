@@ -51,7 +51,7 @@ void loop()
  // Serial.printf("voltage xPin %s\n", String(xPin() * 100 / 4095));
  // Serial.printf("voltage yPin %s\n", String(yPin() * 100 / 4095));
  // int xplay= 
-  display.setPixel(64+(xPin()-2047) * 128 / 4095,32+(yPin()-2047) * 64 / 4095);
+  display.setPixel(64+(xPin()-2047) * 128 / 4095,32+(yPin()-2047) * 64 / 4095);  //displays a joystick controlled pixel
 //  Serial.printf("voltage Pin %s %s\n", String(PANEL_PIN), String(vPin() * 3200 / 4095));
   wifidraw(&display);
   display.display();
