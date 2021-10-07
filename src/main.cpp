@@ -1,8 +1,8 @@
 
 
-#include "/home/chronominet/Documents/PlatformIO/Projects/Dadaphonic_0.1.2/Headers/test.h"
-#include "/home/chronominet/Documents/PlatformIO/Projects/Dadaphonic_0.1.2/Headers/vPinDemo.h"
-#include "/home/chronominet/Documents/PlatformIO/Projects/Dadaphonic_0.1.2/Headers/wifidraw.h"
+#include "../Headers/test.h"
+#include "../Headers/vPinDemo.h"
+#include "../Headers/wifidraw.h"
 
 #include "wifiLogo.cpp"
 #include "wifi_ico.cpp"

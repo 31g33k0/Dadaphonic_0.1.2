@@ -1,4 +1,4 @@
- #include "/home/chronominet/Documents/PlatformIO/Projects/Dadaphonic_0.1.2/Headers/wifidraw.h"
+ #include "../Headers/wifidraw.h"
 
 //  #include "SSD1306Wire.h"
 

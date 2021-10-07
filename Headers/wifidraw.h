@@ -1,4 +1,4 @@
-#include "/home/chronominet/Documents/PlatformIO/Projects/Dadaphonic_0.1.2/Headers/test.h"
+#include "../Headers/test.h"
 
 
 // #ifndef __DISPLAY2__
